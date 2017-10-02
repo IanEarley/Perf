@@ -55,4 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.3'
 gem 'petergate', '~> 1.7', '>= 1.7.5'
 gem 'rolify', '~> 5.1'
-gem 'paperclip', '~> 5.1'
+gem 'carrierwave', '~> 1.2'
+gem 'mini_magick', '~> 4.8'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'

@@ -1,4 +1,6 @@
-<p id="notice"><%= notice %></p>
+<p>
+  <%= image_tag @blog.main_img, width: "400px", height: "300px" %>
+</p>
 
 <p>
   <strong>Title:</strong>
@@ -10,15 +12,6 @@
   <%= @blog.body %>
 </p>
 
-<p>
-  <strong>Main img:</strong>
-  <%= @blog.main_img %>
-</p>
-
-<p>
-  <strong>Thumb image:</strong>
-  <%= @blog.thumb_image %>
-</p>
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
 <%= link_to 'Back', blogs_path %>
